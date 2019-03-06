@@ -1,0 +1,90 @@
+body
+{
+	font-family: sans-serif; /*this will set whole font family to sans-serif*/
+	font-size: 100%; /*this will set the font size to 100%*/
+	width: 800px;
+	margin: auto; /*it will set page at middle*/
+	background-color: white;
+	border: 7px solid black;
+	box-shadow: 4px 5px 16px 7px black;
+}
+html
+{
+	background: url("../images/bats.gif")repeat center; /*will set background image*/
+}
+
+ul
+	{
+	margin-bottom: 1.5em;/*it will set the margin bottom 1.5*/
+	}
+
+li
+	{
+	font-size: 110%; /*will change the font size to 110*/
+	padding-bottom: .45em;
+	}
+	
+a {font-weight: bold} /*will change the font to bold*/
+a:link {color: #f2972e;}
+a:visited {color: #f2972e;}
+a:hover,
+a:focus {color: green;} /*will change the color to green if we mouse over*/
+
+/*Header*/
+header
+	{
+	padding-bottom: 3em; /*will give a space of 3em between header and footer*/
+	border-bottom: 2px solid black; /*will add a black border*/
+	background-image: linear-gradient(45deg, white 0%, orange 75%, black 95%);/*will add a 45 degreee gardient to header.*/
+	}
+	
+header img { 
+	float: left; 
+} 
+header h2 {
+	font-size: 230%;
+	font-style: italic;
+	color: orange;
+	text-indent: 25px;
+	text-shadow: 2px 2px 2px black;
+}
+header h3 {
+	font-size: 125%;
+	text-indent: 25px;
+}
+/*Main*/
+main
+{
+	width: 640px;
+	float: right;
+}
+aside{
+	width: 160px;
+	float: top;
+	padding-bottom: 1.5em;
+}
+main h1 { 
+	font-size: 140%;
+}
+main h1:first-letter { 
+	font-size: 240%;
+}
+main h2 {
+	font-size: 125%;
+}
+main h3 {
+	font-size: 110%;
+}
+ul {
+	line-height: 1.5;
+}
+/*Footer*/
+footer
+{
+	clear: both; /*will clear the footer*/
+	font-size: 80%;
+	text-align: center;/*will center the footer*/
+	border-top: 3px solid black;/*will display black border*/
+	background-image: linear-gradient(45deg, black 0%, orange 55%, white 95%);/*will add 45 degree gradient to footer*/
+}
+
